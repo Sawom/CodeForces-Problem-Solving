@@ -1,0 +1,11 @@
+n = int(input())
+solved_count = 0
+
+for i in range(n):
+    petya , vasya, tonya = map(int,input().split())
+
+    if(petya + vasya + tonya) >=2:
+        solved_count = solved_count + 1
+        # solved_count += 1
+
+print(solved_count)
